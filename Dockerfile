@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER paultiplady@gmail.com
+MAINTAINER jmj007; paultiplady@gmail.com
 
 # Satisfy deps
 RUN apt-get update && \
