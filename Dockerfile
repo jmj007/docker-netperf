@@ -15,3 +15,4 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
  
+CMD ["/usr/local/bin/netserver", "-D"]
